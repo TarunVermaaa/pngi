@@ -1,8 +1,12 @@
+import React from "react";
+
 function Body() {
     return (
-        <div>
-            This should be Body
-        </div>
+        <React.Fragment>
+            <div>
+                This should be Body
+            </div>
+        </React.Fragment>
     );
 }
 

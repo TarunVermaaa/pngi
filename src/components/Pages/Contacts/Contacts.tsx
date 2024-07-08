@@ -1,8 +1,12 @@
+import React from "react";
+
 function Contacts() {
     return (
-        <div>
-            This should be Contacts
-        </div>
+        <React.Fragment>
+            <div>
+                This should be Contacts
+            </div>
+        </React.Fragment>
     );
 }
 
