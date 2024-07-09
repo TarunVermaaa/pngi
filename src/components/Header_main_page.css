@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+    background-image: url('background-image.jpg');
+    /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 80%;
+    height: auto;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #00c4ff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.buttons a {
+    background-color: #6060ff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.buttons a:hover {
+    background-color: #4040ff;
+}
