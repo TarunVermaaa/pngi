@@ -1,0 +1,146 @@
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: nowrap;
+}
+
+#logo_navbar {
+    height: 50px;
+    width: 50px;
+}
+
+#span_text {
+    font-weight: bold;
+}
+
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.download a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.download a:hover {
+    background-color: #333333;
+} */
+
+
+/* Reset default margin/padding for cleaner styling */
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navbar for a light background */
+.navbar-light {
+    background-color: #f8f9fa;
+}
+
+/* Remove the default navbar-expand-lg behavior (intended for larger screens) */
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    /* Keep items on a single line */
+}
+
+/* Style the logo and title container */
+.navbar-brand,
+#logo_navbar {
+    display: flex;
+    align-items: center;
+    /* Align logo and title vertically */
+}
+
+/* Logo styling (adjust width, height, and margin as needed) */
+#logo_navbar {
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+    /* Add space between logo and title */
+}
+
+/* Style the title text */
+.navbar-brand {
+    font-weight: bold;
+    /* Make title more prominent */
+}
+
+/* Style the navigation links container */
+.nav-links {
+    display: flex;
+    list-style: none;
+    /* Remove default bullet points */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+/* Style each navigation link */
+.nav-links li a {
+    padding: 10px 15px;
+    /* Add some padding for better readability */
+    text-decoration: none;
+    /* Remove underline */
+    color: #333;
+    /* Set link color */
+}
+
+/* Style the "Download Free" button */
+.download a {
+    background-color: #007bff;
+    /* Blue background */
+    color: white;
+    /* White text */
+    padding: 10px 15px;
+    /* Add padding */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add rounded corners */
+    cursor: pointer;
+    /* Indicate clickable element */
+}
+
+/* Add some hover effects for a nicer user experience */
+.nav-links li a:hover,
+.download a:hover {
+    background-color: #e7e7e7;
+    /* Light gray hover effect */
+}
+
+/* Flexbox for positioning elements */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* Move items to opposite ends */
+}
